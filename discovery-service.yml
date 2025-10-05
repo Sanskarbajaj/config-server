@@ -6,11 +6,11 @@ spring:
     name: discovery-service
   cloud:
     config:
-      override-system-properties: false
+      override-system-properties: true
 
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    register-with-eureka: true
+    fetch-registry: true
   server:
     wait-time-in-ms-when-sync-empty: 0
