@@ -18,6 +18,6 @@ eureka:
     
 logging:
   level:
-    com.netflix.discovery: ERROR
-    com.netflix.eureka: ERROR
+    com.netflix.eureka: OFF
+    com.netflix.discovery: OFF
 
