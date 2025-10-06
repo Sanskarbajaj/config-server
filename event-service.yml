@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/mil_eventdb
+    url: jdbc:mysql://localhost:3306/mil_eventdb
     username: root
     password: sanskar
     driver-class-name: com.mysql.cj.jdbc.Driver
